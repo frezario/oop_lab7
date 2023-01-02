@@ -2,6 +2,7 @@ package com.example.springboot;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 
 @Setter
@@ -16,5 +17,9 @@ public class Flower extends Item {
 
     public String getColor() {
         return color.toString();
+    }
+
+    public String getInfo() {
+        return "Name: " + description + ", Price: " + price;
     }
 }
