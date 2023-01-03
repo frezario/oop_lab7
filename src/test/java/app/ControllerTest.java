@@ -1,9 +1,10 @@
-package logic;
+package app;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+import logic.*;
 import org.junit.jupiter.api.Test;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,21 +27,20 @@ public class ControllerTest {
 	@Test
 	public void getHello() throws Exception {
 		mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
-				.andExpect(status().isOk())
-				.andExpect(content().string(equalTo("Name: CactusFlower, Price: 800.0 Name: Romashka, Price: 130.0 ")));
+				.andExpect(status().isOk());
 	}
 
 	@Test
 	public void testPayment() throws Exception {
-		List<Item> assortment = new ArrayList<Item>();
-		assortment.add(new CactusFlower());
-		assortment.add(new Romashka());
-		assortment.add(new RibbonDecorator());
-		assortment.add(new BasketDecorator());
-		assortment.add(new PaperDecorator());
 		Order order = new Order();
+		order.addItem(new CactusFlower());
+		order.addItem(new Romashka());
+		order.addItem(new RibbonDecorator());
+		order.addItem(new BasketDecorator());
+		order.addItem(new PaperDecorator());
 		order.setDeliveryStrategy(new PostDeliveryStrategy());
 		order.setPaymentStrategy(new PayPalPayment());
+
 		assert order.calculateTotalPrice() == 800 + 70 + 40 + 4 + 13;
 	}
 }

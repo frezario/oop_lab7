@@ -1,11 +1,16 @@
 package logic;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Order {
     private List<Item> items;
     private Payment payment;
     private Delivery delivery;
+
+    public Order() {
+        this.items = new ArrayList<>();
+    }
 
     public void setPaymentStrategy(Payment payment) {
         this.payment = payment;

@@ -5,49 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="372273f9-1bb3-47b4-a991-56a4f2101256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/BasketDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/PaperDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/RibbonDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Cactus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/CactusFlower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/CreditCartPaymentStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/CreditCartPaymentStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/DHLDeliveryStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/DHLDeliveryStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/ItemDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/FlowerBucket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/FlowerBucket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/FlowerColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/FlowerColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/FlowerPack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/FlowerPack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/FlowerType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/FlowerType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/PayPalPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/PayPalPayment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/PostDeliveryStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/PostDeliveryStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Romashka.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Romashka.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/ControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logic/ControllerIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logic/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Cactus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/CreditCartPaymentStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/DHLDeliveryStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Delivery.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Flower.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/FlowerBucket.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/FlowerColor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/FlowerPack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/FlowerType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/PayPalPayment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Payment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/PostDeliveryStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Romashka.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot/Store.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logic/ControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ControllerIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logic/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/ControllerIT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/ControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +59,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Study/OOP/lab7",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "127bf1af6de325a0e4add3e3d4dcde82"
   }
 }]]></component>
@@ -103,7 +68,22 @@
       <recent name="com.example.springboot" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ControllerTest">
+  <component name="RunManager" selected="JUnit.ControllerTest (1)">
+    <configuration name="ControllerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-complete" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="app" />
+      <option name="MAIN_CLASS_NAME" value="app.ControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-boot-complete" />
       <extension name="coverage">
@@ -144,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ControllerTest (1)" />
         <item itemvalue="JUnit.ControllerTest" />
         <item itemvalue="JUnit.ControllerTest.testPayment" />
       </list>
@@ -158,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672668896784</updated>
       <workItem from="1672668899989" duration="7883000" />
-      <workItem from="1672682947051" duration="5291000" />
+      <workItem from="1672682947051" duration="6605000" />
     </task>
     <servers />
   </component>
