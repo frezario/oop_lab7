@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="372273f9-1bb3-47b4-a991-56a4f2101256" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/ControllerIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ControllerIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logic/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/app/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/app/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/app/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/ControllerIT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/logic/ControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Study/OOP/lab7",
+    "last_opened_file_path": "C:/Projects/Java/lab11",
     "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "127bf1af6de325a0e4add3e3d4dcde82"
   }
@@ -140,6 +135,8 @@
       <updated>1672668896784</updated>
       <workItem from="1672668899989" duration="7883000" />
       <workItem from="1672682947051" duration="6605000" />
+      <workItem from="1672750205005" duration="749000" />
+      <workItem from="1672752149728" duration="266000" />
     </task>
     <servers />
   </component>
